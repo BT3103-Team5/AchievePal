@@ -11,8 +11,7 @@ image::docs/AchievePal.jpg[width="600"]
 * https://www.youtube.com/watch?v=XtL9fTfEJOg&feature=youtu.be[Video]
 * https://docs.google.com/presentation/d/1_9VPMkguoVJD40LLp2SZ8dIpH48v9kPJ-EWtLPM6Rzk/edit?usp=sharing/[Slides]
 * <<UserGuide#, User Guide>>
-* <<RoadMap#, Development Roadmap>>
-* https://bt3103-hosting.firebaseapp.com/[Deployed Application]
+* <<RoadMap#, Development Roadmap>
 
 == Acknowledgements
 
