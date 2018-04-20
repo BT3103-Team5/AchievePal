@@ -11,8 +11,6 @@ ifdef::env-github[]
 endif::[]
 :repoURL: https://github.com/BT3103-Team5/AchievePal
 
-By: `Team 5`      From `Jan 2018` to `Apr 2018`
-
 == Introduction
 
 Achievepal is a web app made for *students* and *instructors* to better manage the courseworks. It contains information about the assignments as well as visualization about his/her own performance in a certain course to keep students updated and get a direct picture about where should they improve on. On the instructor mode, AchievePal provides visulization about the performance of the overall class and help teachers manage all the students closely. 
@@ -25,6 +23,7 @@ Achievepal is a web app made for *students* and *instructors* to better manage t
 ==== Access student List
 
 Click the `Student List` tab from the left side bar to direct to student list. 
+
 image::SearchStudentName.png[width="600"]
 
 * All the students registered in Achievement App will be displayed in one list. Each row of the list contains students' photo as well as student name. 
@@ -35,16 +34,27 @@ image::SearchStudentName.png[width="600"]
 image::StudentProfile.png[width="600"]
 The student profile contains three main components, which are student's particulars & submitted assignments, student's Capacity map as well as student's position in terms of codecombat level wwith in his/her class.
 
-image::Capacity Map.png[width="600", align="center"]
-The following table contians the explanation about the capacity map.
+image::StudentNameCard.png[width="600"]
+say something
+
+image::Capacity Map.png[ align="center"]
+
+* `Completion rate` is calculated based on the rate of submitting assignment of each student. 
+* `CodeCombat` represents the level that student has achieved in codecombat flatform
+* `Login frequencies` describes how often student has opened the Achievement App
+* `attempt frequencies` describes how often the student has opened any assignment in his/her course. 
+* `quality of solution` represents the quality of students solutions. E.g. are the solutions all well phrased and directed to the knowledge that covered in class. (has yet to be implemented) 
+* `other` means other aspects of judgement. (has yet to be implemented)  
 
 image::CodeCombatDist.png[align="center"]
-The graph shows the overall distribution of CodeCombat levels with in the class and student's position within the whole class.  
+
+Below the Capacity map and student's details contains the CodeCombat distribution. Students can gain an understanding of the overall performance of the class interms of codecombat and where they stand among their peers.    
 
 === Instructor Feature
 ==== Access course List
 
 Click the `Course` tab from the left side bar to direct to course list. 
+
 image::SearchCourseName.png[width="600"]
 
 * All the courses registered in Achievement App will be displayed in one list. 
