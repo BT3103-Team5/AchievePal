@@ -1,18 +1,24 @@
 = AchievePal
 ifdef::env-github,env-browser[:relfileprefix: docs/]
 
+== Overview
+
 image::docs/AchievePal.jpg[width="600"]
 
-* This is a analytics Web application designed for university student and insturctors to better manage the class.
+* AchievPal is a educational analytics Web application created for all the courses registered on Achievement App or with grided data of user behaviours. It serves for both students community and course instructor community to bring them the convenience to handle all the course information and mmanage the todo lists just from the keyboard. 
 
-== Site Map
+== Get started
 
 * https://bt3103-hosting.firebaseapp.com/[AchievePal]
-* https://www.youtube.com/watch?v=XtL9fTfEJOg&feature=youtu.be[Video]
-* https://docs.google.com/presentation/d/1_9VPMkguoVJD40LLp2SZ8dIpH48v9kPJ-EWtLPM6Rzk/edit?usp=sharing/[Slides]
+* https://www.youtube.com/watch?v=XtL9fTfEJOg&feature=youtu.be[Instructive Video]
+* https://docs.google.com/presentation/d/1_9VPMkguoVJD40LLp2SZ8dIpH48v9kPJ-EWtLPM6Rzk/edit?usp=sharing/[Slides Deck]
 * <<UserGuide#, User Guide>>
-* <<RoadMap#, Development Roadmap>>
+* <<RoadMap#, App Documentation>>
 
 == Acknowledgements
 
-* Some parts of this project used the excellent Material-Ui, Victory and Recharts library
+* Data used in this app comes from the real time `Achievement API`.
+* Data storage service credits to https://firebase.google.com/docs/database/?gclid=Cj0KCQjwn-bWBRDGARIsAPS1svtwPeXO-0c12RiIFpoC68y3uEcbJDZK3D8zivJEhqavvbp01eSlK9YaAksTEALw_wcB/[firebase realtime database]. 
+* Live data refreshing is supported by https://aws.amazon.com/lambda/[AWS Lambda Service]. 
+* This app is supported by https://redux.js.org/basics/usage-with-react/[react-redux] Framework. 
+* UI component developments are supports by http://www.material-ui.com/[Material-Ui] and http://recharts.org/en-US/[Recharts] libraries. 
