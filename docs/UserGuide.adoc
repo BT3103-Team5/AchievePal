@@ -3,8 +3,6 @@
 :toc-title:
 :toc-placement: preamble
 :sectnums:
-:imagesDir: images
-:stylesDir: stylesheets
 :xrefstyle: full
 :experimental:
 ifdef::env-github[]
@@ -29,34 +27,34 @@ Achievepal is a web app made for *students* and *instructors* to better manage t
 
 === Access student List
 
-image::clickStudentList.png[width="600"]
+image::ClickStudentList.png[width="600"]
 
 .  Click the `Student List` tab from the left side bar. 
 
 === Select the particular student 
-image::searchStudentName.png[width="600"]
+image::SearchStudentName.png[width="600"]
 
 .  Click the student name and go to the student profile
 
 === View the student Profile
-image::studentProfile.png[width="600"]
+image::StudentProfile.png[width="600"]
 
 .  The student profile contains mainly three components, which are student's particulars & submitted assignments, student's Capacity map as well as student's position in terms of codecombat level wwith in his/her class.
 
 === Access course List
 course list contains all the courses registered in the Achievement App. 
 
-image::courseList.PNG[width="600"]
+image::CourseList.png[width="600"]
 
 === Select particular course 
 
 Users can be redirected to course's profile page by click the course name. 
 
-image::searchCourseName.png[width="600"]
+image::SearchCourseName.png[width="600"]
 
 === View course Profile
 
-image::courseProfile.png[width="600"]
+image::CourseProfile.png[width="600"]
 
 .  The courseProfile contains four components. 
 .  The Number of submitted assignments vs Time usage charts plots how many assignment has a student submitted (X-axis) and 
@@ -68,6 +66,12 @@ The time used for each assignment is calculated by the time span from the assign
 
 === Use chat box to discuss with other students within the same class.
 
+image::OpenChatBox.png[width="600"]
+.  The chat room is a place where everyone in the class can share their opinion and discuss about class questions
+.  Both students and instructors can use the chat box to interact with anyone else in the same class.
+
 === Refresh the data 
+By click the button on the side bar, latest live data from the Achievement API will be loaded in after seconds and the visualization will change automatically without reloading the page.
+
 
 
