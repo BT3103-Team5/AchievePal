@@ -34,10 +34,12 @@ image::SearchStudentName.png[width="600"]
 ==== View the student Profile
 
 image::StudentProfile.png[width="600"]
+
 The student profile contains three main components, which are student's particulars & submitted assignments, student's Capacity map as well as student's position in terms of codecombat level wwith in his/her class.
 
 image::StudentNameCard.png[width="600"]
-say something
+
+The left-top corner contains student's name card, which includes the student's name, course information as well as the CodeCombat level. Submitted assignments are also listed below the details, which reminds the student about which particular assignment he/she has submitted and which has not been done yet.  
 
 image::Capacity Map.png[ align="center"]
 
@@ -50,7 +52,7 @@ image::Capacity Map.png[ align="center"]
 
 image::CodeCombatDist.png[align="center"]
 
-Below the Capacity map and student's details contains the CodeCombat distribution. Students can gain an understanding of the overall performance of the class interms of codecombat and where they stand among their peers.    
+Below the Capacity map and student's details contains the CodeCombat distribution. Students can gain an understanding of the overall performance of the class in terms of codecombat and where they stand among their peers.    
 
 === Instructor Feature
 ==== Access course List
@@ -66,17 +68,25 @@ image::SearchCourseName.png[width="600"]
 
 image::CourseProfile.png[width="600"]
 
-* The courseProfile contains four components, which is Number of submitted assignments vs Time usage scatter chart, course's details, registered student list as well as released assignment list. 
-* The Number of submitted assignments vs Time usage charts plots how many assignment has a student submitted (X-axis) versus 
-the average time used by the student to finish one assignment (Y-axis). The spedific figure about each student will appear when user hovers around each dot. 
-* Student List contains all the student names as well as number of assignments finished by each of them. 
-* Assignment List contains all the assignment together with the submission rate for each of them. 
+The courseProfile contains four components, which is Number of submitted assignments vs Time usage scatter chart, course's details, registered student list as well as released assignment list. 
+
+image::CourseScatter.png[align="center"]
+
+The Number of submitted assignments vs Time usage charts plots how many assignments has each student submitted (X-axis) versus 
+the average time used by that student to finish one assignment (Y-axis). Apparently those who are located at the top spend the most time on the assignments, which means they may spend a hard time solving the given problem, and those who are located at the left side may have dedicated less time to assignments compared to other students. 
+[TIP]
+Figures about each student will appear when user hovers around the dots. 
+
+image::CourseList.png[align="center"]
+Student List contains all the student names as well as number of assignments finished by each of them. To the right of it, assignment list contains all the assignment together with the submission rate for each of them.
+
 [NOTE]
 The time used to finish each assignment is calculated by the difference of time between when the assignment is released and when the student submits the solution.
 
 ==== Use chat box to discuss with other students within the same class.
 
 image::OpenChatBox.png[width="600"]
+
 * The chat room is the place where everyone in the class can share their opinion and discuss about relevant topics.
 * Both students and instructors can use the chat box to interact with anyone else in the same class.
 
