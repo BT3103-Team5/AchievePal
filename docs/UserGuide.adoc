@@ -11,6 +11,8 @@ ifdef::env-github[]
 endif::[]
 :repoURL: https://github.com/BT3103-Team5/AchievePal
 
+By: `Team 5`     
+
 == Introduction
 
 Achievepal is a web app made for *students* and *instructors* to better manage the courseworks. It contains information about the assignments as well as visualization about his/her own performance in a certain course to keep students updated and get a direct picture about where should they improve on. On the instructor mode, AchievePal provides visulization about the performance of the overall class and help teachers manage all the students closely. 
