@@ -11,7 +11,7 @@ ifdef::env-github[]
 :tip-caption: :bulb:
 :note-caption: :information_source:
 endif::[]
-:repoURL: https://github.com/CS2103JAN2018-T15-B1/main
+:repoURL: https://github.com/BT3103-Team5/AchievePal
 
 By: `Team 5`      From `Jan 2018` to `Apr 2018`
 
