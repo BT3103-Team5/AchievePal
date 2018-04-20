@@ -19,7 +19,7 @@ Achievepal is a web app made for *students* and *instructors* to better manage t
 
 == Features
 
-* click https://bt3103-hosting.firebaseapp.com/[AchievePal] to start the AchievePal journey.
+* click https://bt3103-hosting.firebaseapp.com/[this link] to start exploring AchievePal.
 
 === Student Feature
 ==== Access student List
