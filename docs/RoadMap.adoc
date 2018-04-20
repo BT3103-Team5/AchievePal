@@ -1,63 +1,58 @@
 
-Iteration 1:
-Description: 
-	The first iteration was mainly done using CodeSandbox as the team was not familiar with the use of React and CodeSandbox was able to show the instant result of changes made. The product of iteration 1 only contains rather limited pages(Home Route, Students Page and Instructors Page), however, it served as an initial skeleton of the project and highlighted the different needs between a student user and an instructor user. 
-	Also, this was the team’s first attempt in implementing a firebase database from scratch. When a user opens the Students tab, they can view the existing number of students in Achievements App.
-	
-Features implemented:
-	Real-time Firebase database
-	Webpage redirecting
-	Deployment using Firebase 
-Difficulties encountered:
-	Deployment: 
-	Difficulties in adjust CSS styles
-	Not familiar with React
-	Not experienced enough in designing features
+== 4 Iterations of AchievePal 
+=== Iteration 1:
+* Description: The first iteration was mainly done using CodeSandbox as the team was not familiar with the use of React and CodeSandbox was able to show the instant result of changes made. The product of iteration 1 only contains rather limited pages(Home Route, Students Page and Instructors Page), however, it served as an initial skeleton of the project and highlighted the different needs between a student user and an instructor user. Also, this was the team’s first attempt in implementing a firebase database from scratch. When a user opens the Students tab, they can view the existing number of students in Achievements App.
+
+* Features implemented:
+.  Real-time Firebase database
+.  Webpage redirecting
+.  Deployment using Firebase 
+* Difficulties encountered:
+.  Deployment: 
+.  Difficulties in adjust CSS styles
+.  Not familiar with React
+.  Not experienced enough in designing features
 		
 
-Iteration 2:
-Description
-	During iteration 2, the team worked on UI improvement and adding more functionalities to the app while familiarising themselves with React and Redux. This includes  moving the student/instructor structure to a simple UI framework to enhance the user’s experience. 
+=== Iteration 2:
+* Description: During iteration 2, the team worked on UI improvement and adding more functionalities to the app while familiarising themselves with React and Redux. This includes  moving the student/instructor structure to a simple UI framework to enhance the user’s experience. The first chart was added during iteration 2 using the Victory Charts package, which was a simple bar chart showing the number of participants from each Junior school. 
 
-	The first chart was added during iteration 2 using the Victory Charts package, which was a simple bar chart showing the number of participants from each Junior school. 
-Features implemented:
-	Improved UI using a simple UI framework
-	Added charts(number of participants from each Junior school)
-Difficulties encountered:
-	Undefined data problem 
-	Data source is firebase real-time database
-	Cannot use SQL query which lead to low efficiency
-	Not familiar with material-UI
+* Features implemented:
+.  Improved UI using a simple UI framework
+.  Added charts(number of participants from each Junior school)
+* Difficulties encountered:
+.  Undefined data problem 
+.  Data source is firebase real-time database
+.  Cannot use SQL query which lead to low efficiency
+.  Not familiar with material-UI
 		
 
-Iteration 3 (version used for week 12 presentation):
-Description
-	At this stage, the team became more familiar with React and was able to make significant progress. Apart from improve UI to mimic Achievement App, the team was also able to add more functionalities to each of the tabs. Namely, a list of all the course names was obtained from Firebase and each name was made clickable. Users are able to view a bar chart describing the assignment completion rate of the particular course after clicking on it. Also, the team realised name search function is necessary for a project catering over one thousand users. This version of the web app was deployed and used in the week 12 presentation.
+=== Iteration 3 (version used for week 12 presentation):
+* Description: At this stage, the team became more familiar with React and was able to make significant progress. Apart from improve UI to mimic Achievement App, the team was also able to add more functionalities to each of the tabs. Namely, a list of all the course names was obtained from Firebase and each name was made clickable. Users are able to view a bar chart describing the assignment completion rate of the particular course after clicking on it. Also, the team realised name search function is necessary for a project catering over one thousand users. This version of the web app was deployed and used in the week 12 presentation.
 	
-Features implemented:
-	Improved UI using a new UI framework
-	Added a list of clickable courses
-	Added bar chart and tables for descriptive analysis
-Difficulties encountered:
-		Implementing Victory charts
-		As more features were required at this stage, the chart needed to be customised. Specifically, a tooltip was needed for mouseover. This turned out to be a challenge as the team was not familiar with the APIs of Victory and how it processes input data. However, after many trials and errors, the team was able to make use of the package.
-		The project became too large and hard to manage
-		Merging work from different team members became challenging as there were many conflicts in code and styling
-		The data involved reach 30 MB
-		Building process is slow
+* Features implemented:
+.  Improved UI using a new UI framework
+.  Added a list of clickable courses
+.  Added bar chart and tables for descriptive analysis
+* Difficulties encountered:
+.  Implementing Victory charts
+.  As more features were required at this stage, the chart needed to be customised. Specifically, a tooltip was needed for mouseover. This turned out to be a challenge as the team was not familiar with the APIs of Victory and how it processes input data. However, after many trials and errors, the team was able to make use of the package.
+.  The project became too large and hard to manage
+.  Merging work from different team members became challenging as there were many conflicts in code and styling
+.  The data involved reach 30 MB
+.  Building process is slow
 
 
-Iteration 4(version used for final submission): 
-Description
-	This is the latest deployed version of the web app with significantly more additional features and functionalities as compared to iteration 3. 
-Features implemented:
-	Improved UI
-	Added search functions for both student and course names
-	Added individual student profile for each student
-	Added scatter chart, radar chart(Recharts) and more descriptive tables 
-	Added AWS lambda functions to let the user refresh the data in real-time as they wish
+=== Iteration 4(version used for final submission): 
+* Description: This is the latest deployed version of the web app with significantly more additional features and functionalities as compared to iteration 3. 
+* Features implemented:
+.  Improved UI
+.  Added search functions for both student and course names
+.  Added individual student profile for each student
+.  Added scatter chart, radar chart(Recharts) and more descriptive tables 
+.  Added AWS lambda functions to let the user refresh the data in real-time as they wish
 
-Difficulties encountered:
-	Importing large default data .json file leading to failure in building
-	Student page crashes when refresh the page (studentProfile.js needs a specific student name to show all the visuals. When refreshing the page, the student name variable is lost)
-	Several bugs appear when implementing search function.
+* Difficulties encountered:
+.  Importing large default data .json file leading to failure in building
+.  Student page crashes when refresh the page (studentProfile.js needs a specific student name to show all the visuals. When refreshing the page, the student name variable is lost)
+.  Several bugs appear when implementing search function.
