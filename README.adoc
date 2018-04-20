@@ -9,7 +9,7 @@ AchievPal is a educational analytics Web application created for all the courses
 
 == Get started
 
-* https://bt3103-hosting.firebaseapp.com/[AchievePal]
+* https://bt3103-hosting.firebaseapp.com/[Deployed Application]
 * https://www.youtube.com/watch?v=XtL9fTfEJOg&feature=youtu.be[Instructive Video]
 * https://docs.google.com/presentation/d/1_9VPMkguoVJD40LLp2SZ8dIpH48v9kPJ-EWtLPM6Rzk/edit?usp=sharing/[Slides Deck]
 * <<UserGuide#, User Guide>>
