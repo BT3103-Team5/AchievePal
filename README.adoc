@@ -12,7 +12,7 @@ image::docs/AchievePal.jpg[width="600"]
 * https://docs.google.com/presentation/d/1_9VPMkguoVJD40LLp2SZ8dIpH48v9kPJ-EWtLPM6Rzk/edit?usp=sharing/[Slides]
 * <<UserGuide#, User Guide>>
 * <<RoadMap#, Development Roadmap>>
-* https://project-c2ef0.firebaseapp.com/[Deployed Application]
+* https://bt3103-hosting.firebaseapp.com/[Deployed Application]
 
 == Acknowledgements
 
