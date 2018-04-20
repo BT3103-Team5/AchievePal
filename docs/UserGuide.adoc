@@ -21,36 +21,36 @@ Achievepal is a web app made for *students* and *instructors* to better manage t
 
 * click https://bt3103-hosting.firebaseapp.com/[AchievePal] to start the AchievePal journey.
 
-=== Access student List
+=== Student Feature
+==== Access student List
 
-image::ClickStudentList.png[width="600"]
-
-* Click the `Student List` tab from the left side bar. 
-
-=== Select the particular student 
-
+Click the `Student List` tab from the left side bar to direct to student list. 
 image::SearchStudentName.png[width="600"]
 
-* Click the student name and go to that particular student profile.
+* All the students registered in Achievement App will be displayed in one list. Each row of the list contains students' photo as well as student name. 
+* Users can search the particular student that he/she is interested to view. By typing in the student name in the input field on the right side of the screen, the auto complete algorithm will find the name matches the most to the input name and list them down below the input field. Users can click on the one they intend to search for and go to the student Profile page. 
 
-=== View the student Profile
+==== View the student Profile
+
 image::StudentProfile.png[width="600"]
+The student profile contains three main components, which are student's particulars & submitted assignments, student's Capacity map as well as student's position in terms of codecombat level wwith in his/her class.
 
-* The student profile contains three main components, which are student's particulars & submitted assignments, student's Capacity map as well as student's position in terms of codecombat level wwith in his/her class.
+image::Capacity Map.png[width="600", align="center"]
+The following table contians the explanation about the capacity map.
 
-=== Access course List
+image::CodeCombatDist.png[align="center"]
+The graph shows the overall distribution of CodeCombat levels with in the class and student's position within the whole class.  
 
-image::CourseList.png[width="600"]
+=== Instructor Feature
+==== Access course List
 
-* Course list contains all the courses registered in the Achievement App. 
-
-=== Select particular course 
-
+Click the `Course` tab from the left side bar to direct to course list. 
 image::SearchCourseName.png[width="600"]
 
-* Users can be redirected to course's profile page by click the course name. 
+* All the courses registered in Achievement App will be displayed in one list. 
+* Users can search the particular course that he/she is interested to view. By typing in the course name in the input field on the right side of the screen, the auto complete algorithm will find the name matches the most to the input name and list them down below the input field. Users can click on the one they intend to search for and go to the course Profile page. 
 
-=== View course Profile
+==== View course Profile
 
 image::CourseProfile.png[width="600"]
 
@@ -62,11 +62,11 @@ the average time used by the student to finish one assignment (Y-axis). The sped
 [NOTE]
 The time used to finish each assignment is calculated by the difference of time between when the assignment is released and when the student submits the solution.
 
-=== Use chat box to discuss with other students within the same class.
+==== Use chat box to discuss with other students within the same class.
 
 image::OpenChatBox.png[width="600"]
 * The chat room is the place where everyone in the class can share their opinion and discuss about relevant topics.
 * Both students and instructors can use the chat box to interact with anyone else in the same class.
 
-=== Refresh the data 
+==== Refresh the data 
 By click the button on the side bar, latest live data from the Achievement API will be loaded in a few seconds. The visualization and other information will change automatically without reloading the whole page.
