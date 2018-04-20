@@ -1,6 +1,8 @@
 
 == 4 Iterations of AchievePal 
 === Iteration 1:
+image::I1.png[width="600"]
+
 * Description: The first iteration was mainly done using CodeSandbox as the team was not familiar with the use of React and CodeSandbox was able to show the instant result of changes made. The product of iteration 1 only contains rather limited pages(Home Route, Students Page and Instructors Page), however, it served as an initial skeleton of the project and highlighted the different needs between a student user and an instructor user. Also, this was the team’s first attempt in implementing a firebase database from scratch. When a user opens the Students tab, they can view the existing number of students in Achievements App.
 
 * Features implemented:
@@ -15,6 +17,8 @@
 		
 
 === Iteration 2:
+image::I2.png[width="600"]
+
 * Description: During iteration 2, the team worked on UI improvement and adding more functionalities to the app while familiarising themselves with React and Redux. This includes  moving the student/instructor structure to a simple UI framework to enhance the user’s experience. The first chart was added during iteration 2 using the Victory Charts package, which was a simple bar chart showing the number of participants from each Junior school. 
 
 * Features implemented:
@@ -28,6 +32,8 @@
 		
 
 === Iteration 3 (version used for week 12 presentation):
+image::I3.png[width="600"]
+
 * Description: At this stage, the team became more familiar with React and was able to make significant progress. Apart from improve UI to mimic Achievement App, the team was also able to add more functionalities to each of the tabs. Namely, a list of all the course names was obtained from Firebase and each name was made clickable. Users are able to view a bar chart describing the assignment completion rate of the particular course after clicking on it. Also, the team realised name search function is necessary for a project catering over one thousand users. This version of the web app was deployed and used in the week 12 presentation.
 	
 * Features implemented:
@@ -44,6 +50,8 @@
 
 
 === Iteration 4(version used for final submission): 
+image::AchievePal.jpg[width="600"]
+
 * Description: This is the latest deployed version of the web app with significantly more additional features and functionalities as compared to iteration 3. 
 * Features implemented:
 .  Improved UI
