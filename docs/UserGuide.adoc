@@ -19,8 +19,8 @@ Achievepal is a web app made for *students* and *instructors* to better manage t
 
 == Start
 
-.  You can directly click https://bt3103-hosting.firebaseapp.com/[AchievePal] to start the journey!
-.  Refer to <<Features>> for more details of our features.
+* click https://bt3103-hosting.firebaseapp.com/[AchievePal] to start the AchievePal journey!
+
 
 [[Features]]
 == Steps to play with our application! 
@@ -32,46 +32,45 @@ image::ClickStudentList.png[width="600"]
 .  Click the `Student List` tab from the left side bar. 
 
 === Select the particular student 
+
 image::SearchStudentName.png[width="600"]
 
-.  Click the student name and go to the student profile
+* Click the student name and go to that particular student profile.
 
 === View the student Profile
 image::StudentProfile.png[width="600"]
 
-.  The student profile contains mainly three components, which are student's particulars & submitted assignments, student's Capacity map as well as student's position in terms of codecombat level wwith in his/her class.
+* The student profile contains three main components, which are student's particulars & submitted assignments, student's Capacity map as well as student's position in terms of codecombat level wwith in his/her class.
 
 === Access course List
-course list contains all the courses registered in the Achievement App. 
 
 image::CourseList.png[width="600"]
 
+* Course list contains all the courses registered in the Achievement App. 
+
 === Select particular course 
 
-Users can be redirected to course's profile page by click the course name. 
-
 image::SearchCourseName.png[width="600"]
+
+* Users can be redirected to course's profile page by click the course name. 
 
 === View course Profile
 
 image::CourseProfile.png[width="600"]
 
-.  The courseProfile contains four components. 
-.  The Number of submitted assignments vs Time usage charts plots how many assignment has a student submitted (X-axis) and 
-the average time used by the student to finish one assignment.
-
+* The courseProfile contains four components, which is Number of submitted assignments vs Time usage scatter chart, course's details, registered student list as well as released assignment list. 
+* The Number of submitted assignments vs Time usage charts plots how many assignment has a student submitted (X-axis) and 
+the average time used by the student to finish one assignment. The spedific figure about each student will appear when user hovers around each dot. 
+* Student List contains all the student names as well as number of assignments finished by each of them. 
+* Assignment List contains all the assignment together with the submission rate for each of them. 
 [NOTE]
-The time used for each assignment is calculated by the time span from the assignment is released until the student submit the assignment.
-.  The other two list contains:...
+The time used to finish each assignment is calculated by the difference of time between when the assignment is released and when the student submits the solution.
 
 === Use chat box to discuss with other students within the same class.
 
 image::OpenChatBox.png[width="600"]
-.  The chat room is a place where everyone in the class can share their opinion and discuss about class questions
-.  Both students and instructors can use the chat box to interact with anyone else in the same class.
+* The chat room is the place where everyone in the class can share their opinion and discuss about relevant topics.
+* Both students and instructors can use the chat box to interact with anyone else in the same class.
 
 === Refresh the data 
-By click the button on the side bar, latest live data from the Achievement API will be loaded in after seconds and the visualization will change automatically without reloading the page.
-
-
-
+By click the button on the side bar, latest live data from the Achievement API will be loaded in a few seconds. The visualization and other information will change automatically without reloading the whole page.
