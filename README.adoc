@@ -5,7 +5,7 @@ ifdef::env-github,env-browser[:relfileprefix: docs/]
 
 image::docs/AchievePal.jpg[width="600"]
 
-* AchievPal is a educational analytics Web application created for all the courses registered on Achievement App or with grided data of user behaviours. It serves for both students community and course instructor community to bring them the convenience to handle all the course information and mmanage the todo lists just from the keyboard. 
+AchievPal is a educational analytics Web application created for all the courses registered on Achievement App or with grided data of user behaviours. It serves for both students community and course instructor community to bring them the convenience to handle all the course information and mmanage the todo lists just from the keyboard. 
 
 == Get started
 
