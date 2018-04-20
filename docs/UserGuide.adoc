@@ -29,14 +29,13 @@ Retail Analytics (RA) is for *retailers who handle customers and orders and who 
 [[Features]]
 == Features
 
-=== Viewing student profile
+=== Viewing student Profile
 
 .  Click the `Student List` tab from the left side bar. 
-image::addPerson.PNG[width="600"]
+image::docs/clickStudentList.png[width="600"]
 
-=== Adding a person: `addperson`
-
-image::addPerson.PNG[width="600"]
+.  Click the student name and go to the student profile
+image::docs/searchStudentName.png[width="600"]
 
 Adds a person to Retail Analytics app. +
 Format: `addperson n/NAME p/PHONE_NUMBER e/EMAIL a/ADDRESS g/GENDER lat/LATITUDE lon/LONGITUDE [t/TAG]...`
